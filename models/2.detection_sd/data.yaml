@@ -1,6 +1,6 @@
 ## data 로드를 위한 yaml파일
 
-path: test_dataset
+path: dataset
 train: images/train
 val: images/val
 
