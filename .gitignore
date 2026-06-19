@@ -1,3 +1,6 @@
 test_dataset/
 dataset/
 runs/
+
+.venv_cls/
+**/.venv_cls/
