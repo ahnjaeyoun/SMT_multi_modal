@@ -20,3 +20,5 @@ ENV/
 
 .DS_Store
 Thumbs.db
+
+models/1.classssification/.venv_cls/
