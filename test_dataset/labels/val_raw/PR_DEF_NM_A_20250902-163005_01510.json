@@ -1,0 +1,266 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "정상_미납"
+    },
+    {
+      "id": 2,
+      "name": "정상_납부족"
+    },
+    {
+      "id": 3,
+      "name": "정상_납쇼트"
+    },
+    {
+      "id": 4,
+      "name": "정상_납볼"
+    },
+    {
+      "id": 5,
+      "name": "정상_납좌표밀림"
+    },
+    {
+      "id": 6,
+      "name": "정상_납형성불량"
+    },
+    {
+      "id": 7,
+      "name": "정상_냉납"
+    },
+    {
+      "id": 8,
+      "name": "정상_밀림"
+    },
+    {
+      "id": 9,
+      "name": "정상_쇼트"
+    },
+    {
+      "id": 10,
+      "name": "정상_오삽"
+    },
+    {
+      "id": 11,
+      "name": "정상_미삽"
+    },
+    {
+      "id": 12,
+      "name": "정상_역삽"
+    },
+    {
+      "id": 13,
+      "name": "정상_뒤집힘"
+    },
+    {
+      "id": 14,
+      "name": "정상_일어섬"
+    },
+    {
+      "id": 15,
+      "name": "정상_납금감/핀홀"
+    },
+    {
+      "id": 16,
+      "name": "정상_납고드름"
+    },
+    {
+      "id": 17,
+      "name": "불량_미납"
+    },
+    {
+      "id": 18,
+      "name": "불량_납부족"
+    },
+    {
+      "id": 19,
+      "name": "불량_납쇼트"
+    },
+    {
+      "id": 20,
+      "name": "불량_납볼"
+    },
+    {
+      "id": 21,
+      "name": "불량_납좌표밀림"
+    },
+    {
+      "id": 22,
+      "name": "불량_납형성불량"
+    },
+    {
+      "id": 23,
+      "name": "불량_냉납"
+    },
+    {
+      "id": 24,
+      "name": "불량_밀림"
+    },
+    {
+      "id": 25,
+      "name": "불량_쇼트"
+    },
+    {
+      "id": 26,
+      "name": "불량_오삽"
+    },
+    {
+      "id": 27,
+      "name": "불량_미삽"
+    },
+    {
+      "id": 28,
+      "name": "불량_역삽"
+    },
+    {
+      "id": 29,
+      "name": "불량_뒤집힘"
+    },
+    {
+      "id": 30,
+      "name": "불량_일어섬"
+    },
+    {
+      "id": 31,
+      "name": "불량_납금감/핀홀"
+    },
+    {
+      "id": 32,
+      "name": "불량_납고드름"
+    }
+  ],
+  "images": [
+    {
+      "id": 374,
+      "width": 512,
+      "height": 512,
+      "file_name": "PR_DEF_NM_A_20250902-163005_01510.jpg"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1973,
+      "image_id": 374,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 8534.187200000002,
+      "bbox": [
+        143.29,
+        116.02,
+        91.49,
+        93.28
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1974,
+      "image_id": 374,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 7068.737699999998,
+      "bbox": [
+        375.6,
+        117.82,
+        90.59,
+        78.03
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1975,
+      "image_id": 374,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 6654.5883,
+      "bbox": [
+        377.39,
+        274.78,
+        78.93,
+        84.31
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1976,
+      "image_id": 374,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 7028.298200000001,
+      "bbox": [
+        141.5,
+        274.78,
+        81.62,
+        86.11
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    }
+  ],
+  "sensor_data": [
+    {
+      "image_id": 374,
+      "sensor_sequence": [
+        {
+          "timestamp": "2025-09-02 16:30:05",
+          "temperature": 26.6,
+          "humidity": 53.04,
+          "vibration": 0.2604,
+          "acceleration": 0.0247,
+          "noise": 81.34,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-09-02 16:30:06",
+          "temperature": 26.8,
+          "humidity": 53.71,
+          "vibration": 0.2698,
+          "acceleration": 0.0255,
+          "noise": 82.12,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-09-02 16:30:07",
+          "temperature": 27.0,
+          "humidity": 54.63,
+          "vibration": 0.2791,
+          "acceleration": 0.0266,
+          "noise": 82.89,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-09-02 16:30:08",
+          "temperature": 27.0,
+          "humidity": 55.47,
+          "vibration": 0.2857,
+          "acceleration": 0.0281,
+          "noise": 83.58,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-09-02 16:30:09",
+          "temperature": 27.0,
+          "humidity": 55.85,
+          "vibration": 0.2932,
+          "acceleration": 0.0296,
+          "noise": 84.22,
+          "defect_detected": 1
+        }
+      ]
+    }
+  ]
+}

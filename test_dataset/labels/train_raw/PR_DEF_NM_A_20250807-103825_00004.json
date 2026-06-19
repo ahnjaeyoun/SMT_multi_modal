@@ -1,0 +1,302 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "정상_미납"
+    },
+    {
+      "id": 2,
+      "name": "정상_납부족"
+    },
+    {
+      "id": 3,
+      "name": "정상_납쇼트"
+    },
+    {
+      "id": 4,
+      "name": "정상_납볼"
+    },
+    {
+      "id": 5,
+      "name": "정상_납좌표밀림"
+    },
+    {
+      "id": 6,
+      "name": "정상_납형성불량"
+    },
+    {
+      "id": 7,
+      "name": "정상_냉납"
+    },
+    {
+      "id": 8,
+      "name": "정상_밀림"
+    },
+    {
+      "id": 9,
+      "name": "정상_쇼트"
+    },
+    {
+      "id": 10,
+      "name": "정상_오삽"
+    },
+    {
+      "id": 11,
+      "name": "정상_미삽"
+    },
+    {
+      "id": 12,
+      "name": "정상_역삽"
+    },
+    {
+      "id": 13,
+      "name": "정상_뒤집힘"
+    },
+    {
+      "id": 14,
+      "name": "정상_일어섬"
+    },
+    {
+      "id": 15,
+      "name": "정상_납금감/핀홀"
+    },
+    {
+      "id": 16,
+      "name": "정상_납고드름"
+    },
+    {
+      "id": 17,
+      "name": "불량_미납"
+    },
+    {
+      "id": 18,
+      "name": "불량_납부족"
+    },
+    {
+      "id": 19,
+      "name": "불량_납쇼트"
+    },
+    {
+      "id": 20,
+      "name": "불량_납볼"
+    },
+    {
+      "id": 21,
+      "name": "불량_납좌표밀림"
+    },
+    {
+      "id": 22,
+      "name": "불량_납형성불량"
+    },
+    {
+      "id": 23,
+      "name": "불량_냉납"
+    },
+    {
+      "id": 24,
+      "name": "불량_밀림"
+    },
+    {
+      "id": 25,
+      "name": "불량_쇼트"
+    },
+    {
+      "id": 26,
+      "name": "불량_오삽"
+    },
+    {
+      "id": 27,
+      "name": "불량_미삽"
+    },
+    {
+      "id": 28,
+      "name": "불량_역삽"
+    },
+    {
+      "id": 29,
+      "name": "불량_뒤집힘"
+    },
+    {
+      "id": 30,
+      "name": "불량_일어섬"
+    },
+    {
+      "id": 31,
+      "name": "불량_납금감/핀홀"
+    },
+    {
+      "id": 32,
+      "name": "불량_납고드름"
+    }
+  ],
+  "images": [
+    {
+      "id": 4,
+      "width": 512,
+      "height": 512,
+      "file_name": "PR_DEF_NM_A_20250807-103825_00004.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 26,
+      "image_id": 4,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 4978.35,
+      "bbox": [
+        0.0,
+        0.0,
+        103.5,
+        48.1
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 27,
+      "image_id": 4,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 4791.747000000001,
+      "bbox": [
+        286.13,
+        0.0,
+        114.91,
+        41.7
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 28,
+      "image_id": 4,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 10417.946000000005,
+      "bbox": [
+        444.9,
+        212.9,
+        67.1,
+        155.26
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 29,
+      "image_id": 4,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 11746.145000000004,
+      "bbox": [
+        224.42,
+        116.15,
+        106.06,
+        110.75
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 30,
+      "image_id": 4,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 9711.041600000002,
+      "bbox": [
+        228.3,
+        289.28,
+        99.58,
+        97.52
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 31,
+      "image_id": 4,
+      "category_id": 18,
+      "segmentation": [],
+      "area": 9809.235499999997,
+      "bbox": [
+        30.03,
+        374.1,
+        100.97,
+        97.15
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    }
+  ],
+  "sensor_data": [
+    {
+      "image_id": 4,
+      "sensor_sequence": [
+        {
+          "timestamp": "2025-08-07 10:38:25",
+          "temperature": 26.54,
+          "humidity": 46.9,
+          "vibration": 0.4644,
+          "acceleration": 0.0429,
+          "noise": 67.51,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-08-07 10:38:26",
+          "temperature": 26.5,
+          "humidity": 46.5,
+          "vibration": 0.4891,
+          "acceleration": 0.0427,
+          "noise": 67.44,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-08-07 10:38:27",
+          "temperature": 26.51,
+          "humidity": 45.98,
+          "vibration": 0.5,
+          "acceleration": 0.0426,
+          "noise": 67.18,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-08-07 10:38:28",
+          "temperature": 26.53,
+          "humidity": 45.59,
+          "vibration": 0.5,
+          "acceleration": 0.0431,
+          "noise": 67.04,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-08-07 10:38:29",
+          "temperature": 26.5,
+          "humidity": 45.12,
+          "vibration": 0.5,
+          "acceleration": 0.0426,
+          "noise": 66.93,
+          "defect_detected": 1
+        }
+      ]
+    }
+  ]
+}

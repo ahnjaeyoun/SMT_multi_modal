@@ -1,0 +1,374 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "정상_미납"
+    },
+    {
+      "id": 2,
+      "name": "정상_납부족"
+    },
+    {
+      "id": 3,
+      "name": "정상_납쇼트"
+    },
+    {
+      "id": 4,
+      "name": "정상_납볼"
+    },
+    {
+      "id": 5,
+      "name": "정상_납좌표밀림"
+    },
+    {
+      "id": 6,
+      "name": "정상_납형성불량"
+    },
+    {
+      "id": 7,
+      "name": "정상_냉납"
+    },
+    {
+      "id": 8,
+      "name": "정상_밀림"
+    },
+    {
+      "id": 9,
+      "name": "정상_쇼트"
+    },
+    {
+      "id": 10,
+      "name": "정상_오삽"
+    },
+    {
+      "id": 11,
+      "name": "정상_미삽"
+    },
+    {
+      "id": 12,
+      "name": "정상_역삽"
+    },
+    {
+      "id": 13,
+      "name": "정상_뒤집힘"
+    },
+    {
+      "id": 14,
+      "name": "정상_일어섬"
+    },
+    {
+      "id": 15,
+      "name": "정상_납금감/핀홀"
+    },
+    {
+      "id": 16,
+      "name": "정상_납고드름"
+    },
+    {
+      "id": 17,
+      "name": "불량_미납"
+    },
+    {
+      "id": 18,
+      "name": "불량_납부족"
+    },
+    {
+      "id": 19,
+      "name": "불량_납쇼트"
+    },
+    {
+      "id": 20,
+      "name": "불량_납볼"
+    },
+    {
+      "id": 21,
+      "name": "불량_납좌표밀림"
+    },
+    {
+      "id": 22,
+      "name": "불량_납형성불량"
+    },
+    {
+      "id": 23,
+      "name": "불량_냉납"
+    },
+    {
+      "id": 24,
+      "name": "불량_밀림"
+    },
+    {
+      "id": 25,
+      "name": "불량_쇼트"
+    },
+    {
+      "id": 26,
+      "name": "불량_오삽"
+    },
+    {
+      "id": 27,
+      "name": "불량_미삽"
+    },
+    {
+      "id": 28,
+      "name": "불량_역삽"
+    },
+    {
+      "id": 29,
+      "name": "불량_뒤집힘"
+    },
+    {
+      "id": 30,
+      "name": "불량_일어섬"
+    },
+    {
+      "id": 31,
+      "name": "불량_납금감/핀홀"
+    },
+    {
+      "id": 32,
+      "name": "불량_납고드름"
+    }
+  ],
+  "images": [
+    {
+      "id": 377,
+      "width": 512,
+      "height": 512,
+      "file_name": "PR_DEF_NM_A_20250902-163057_01513.jpg"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1987,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 6998.770799999998,
+      "bbox": [
+        71.54,
+        89.12,
+        104.04,
+        67.27
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1988,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 7123.538999999999,
+      "bbox": [
+        231.19,
+        88.22,
+        103.15,
+        69.06
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1989,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 7122.848399999999,
+      "bbox": [
+        389.95,
+        91.81,
+        103.14,
+        69.06
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1990,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 7559.734800000002,
+      "bbox": [
+        389.95,
+        253.25,
+        96.87,
+        78.04
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1991,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 7248.136800000003,
+      "bbox": [
+        232.09,
+        253.25,
+        95.07,
+        76.24
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1992,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 6250.7266,
+      "bbox": [
+        69.74,
+        252.36,
+        94.18,
+        66.37
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1993,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 2228.9399999999996,
+      "bbox": [
+        1.57,
+        438.92,
+        30.5,
+        73.08
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1994,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 2699.235000000001,
+      "bbox": [
+        59.9,
+        441.89,
+        38.5,
+        70.11
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1995,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 2676.904999999999,
+      "bbox": [
+        130.31,
+        442.47,
+        38.5,
+        69.53
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    },
+    {
+      "id": 1996,
+      "image_id": 377,
+      "category_id": 17,
+      "segmentation": [],
+      "area": 2676.904999999999,
+      "bbox": [
+        195.79,
+        442.47,
+        38.5,
+        69.53
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "occluded": false,
+        "rotation": 0.0
+      }
+    }
+  ],
+  "sensor_data": [
+    {
+      "image_id": 377,
+      "sensor_sequence": [
+        {
+          "timestamp": "2025-09-02 16:30:57",
+          "temperature": 26.58,
+          "humidity": 60.15,
+          "vibration": 0.4404,
+          "acceleration": 0.026,
+          "noise": 62.05,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-09-02 16:30:58",
+          "temperature": 26.45,
+          "humidity": 60.58,
+          "vibration": 0.4372,
+          "acceleration": 0.0245,
+          "noise": 61.53,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-09-02 16:30:59",
+          "temperature": 26.3,
+          "humidity": 61.22,
+          "vibration": 0.4339,
+          "acceleration": 0.0226,
+          "noise": 61.17,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-09-02 16:31:00",
+          "temperature": 26.12,
+          "humidity": 61.3,
+          "vibration": 0.4289,
+          "acceleration": 0.0201,
+          "noise": 60.39,
+          "defect_detected": 1
+        },
+        {
+          "timestamp": "2025-09-02 16:31:01",
+          "temperature": 25.95,
+          "humidity": 61.92,
+          "vibration": 0.4234,
+          "acceleration": 0.0175,
+          "noise": 60.0,
+          "defect_detected": 1
+        }
+      ]
+    }
+  ]
+}
