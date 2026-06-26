@@ -22,3 +22,5 @@ ENV/
 Thumbs.db
 
 models/1.classification/.venv_cls/
+models/2.detection_sd/agents/
+.agents/
