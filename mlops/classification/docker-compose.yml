@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  inference_engine:
+    build: .
+    container_name: ai_inference_engine
+    restart: always
+    environment:
+      # TODO: 여기에 기존 Kafka가 설치된 메인 서버의 IP를 입력하세요 (포트는 9092)
+      - KAFKA_BROKER=100.70.106.105:9092
