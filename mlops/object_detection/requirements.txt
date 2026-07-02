@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+python-multipart
+ultralytics
+kafka-python>=2.0.2
+pymongo
