@@ -19,6 +19,3 @@ smtFrontEnd/frontend/.env
 dataset/
 received_data/
 *.pdf
-
-# Claude Code
-.claude/
