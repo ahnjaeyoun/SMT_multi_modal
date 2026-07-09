@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 import { BASE_URL } from "../../config";
+import { mockSummary, mockByType, mockCause, mockTrend, mockRecent } from "../../api/mock/defectManage.js";
+
+const USE_MOCK = import.meta.env.VITE_MOCK === "true";
 import {
   PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Label,
   LineChart, Line, XAxis, YAxis, CartesianGrid,
@@ -78,6 +81,7 @@ export default function DefectManage() {
   const [recent, setRecent]       = useState([]);
 
   useEffect(() => {
+    if (USE_MOCK) { setCauseData(mockCause.items); return; }
     const q = process === "전체" ? "" : `?process=${process}`;
     fetch(`${API}/cause${q}`)
       .then(r => r.json())
@@ -86,6 +90,7 @@ export default function DefectManage() {
   }, [process]);
 
   useEffect(() => {
+    if (USE_MOCK) { setSummary(mockSummary); return; }
     fetch(`${API}/summary`)
       .then(r => r.json())
       .then(setSummary)
@@ -93,6 +98,7 @@ export default function DefectManage() {
   }, []);
 
   useEffect(() => {
+    if (USE_MOCK) { setByType(mockByType.items); return; }
     const q = process === "전체" ? "" : `?process=${process}`;
     fetch(`${API}/by-type${q}`)
       .then(r => r.json())
@@ -101,10 +107,18 @@ export default function DefectManage() {
   }, [process]);
 
   useEffect(() => {
+    if (USE_MOCK) {
+      const periods = trendTab === "일/월"
+        ? [["daily", "일별"], ["monthly", "월별"]]
+        : [["quarterly", "분기별"], ["yearly", "년별"]];
+      periods.forEach(([period, key]) => {
+        setTrendData(prev => ({ ...prev, [key]: mockTrend[period] || [] }));
+      });
+      return;
+    }
     const periods = trendTab === "일/월"
       ? [["daily", "일별"], ["monthly", "월별"]]
       : [["quarterly", "분기별"], ["yearly", "년별"]];
-
     periods.forEach(([period, key]) => {
       fetch(`${API}/trend?period=${period}`)
         .then(r => r.json())
@@ -114,6 +128,7 @@ export default function DefectManage() {
   }, [trendTab]);
 
   useEffect(() => {
+    if (USE_MOCK) { setRecent(mockRecent.items); return; }
     const q = process === "전체" ? "" : `?process=${process}`;
     fetch(`${API}/recent${q}`)
       .then(r => r.json())

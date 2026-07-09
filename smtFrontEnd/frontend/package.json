@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "mock": "vite --mode mock",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"

@@ -1,0 +1,9 @@
+.vscode/
+__pycache__/
+data_for_Gan/
+dataset/
+runs/
+가이드파일/
+test_1.jpg
+test_2.jpg
+yolo26n.pt

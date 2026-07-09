@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Get-CimInstance *)",
+      "PowerShell(nvidia-smi *)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$raw = [Console]::In.ReadToEnd(); try { $d = $raw | ConvertFrom-Json; $fp = $d.tool_input.file_path } catch { $fp = '' }; if ($fp -and $fp -match '\\.py$') { [PSCustomObject]@{hookSpecificOutput=[PSCustomObject]@{hookEventName='PostToolUse';additionalContext='[CLAUDE.md check] .py file modified. Review CLAUDE.md and update if class names, function signatures, run commands, architecture, or data paths have changed.'}} | ConvertTo-Json -Compress }",
+            "shell": "powershell",
+            "timeout": 10,
+            "statusMessage": "CLAUDE.md consistency check..."
+          }
+        ]
+      }
+    ]
+  }
+}
