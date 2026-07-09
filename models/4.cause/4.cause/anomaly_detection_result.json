@@ -1,0 +1,117 @@
+{
+  "z_threshold": 2.0,
+  "thresholds": {
+    "PR": {
+      "temperature": {
+        "lower": 22.623485,
+        "mean": 25.010859,
+        "upper": 27.398233,
+        "std": 1.193687
+      },
+      "humidity": {
+        "lower": 38.332597,
+        "mean": 49.984575,
+        "upper": 61.636553,
+        "std": 5.825989
+      },
+      "vibration": {
+        "lower": 0.169282,
+        "mean": 0.351538,
+        "upper": 0.533794,
+        "std": 0.091128
+      },
+      "acceleration": {
+        "lower": 0.006849,
+        "mean": 0.025117,
+        "upper": 0.043385,
+        "std": 0.009134
+      },
+      "noise": {
+        "lower": 58.634041,
+        "mean": 67.520663,
+        "upper": 76.407285,
+        "std": 4.443311
+      }
+    },
+    "SD": {
+      "temperature": {
+        "lower": 22.603563,
+        "mean": 24.969863,
+        "upper": 27.336163,
+        "std": 1.18315
+      },
+      "humidity": {
+        "lower": 38.621415,
+        "mean": 50.198331,
+        "upper": 61.775247,
+        "std": 5.788458
+      },
+      "vibration": {
+        "lower": 0.168882,
+        "mean": 0.350764,
+        "upper": 0.532646,
+        "std": 0.090941
+      },
+      "acceleration": {
+        "lower": 0.006701,
+        "mean": 0.024977,
+        "upper": 0.043253,
+        "std": 0.009138
+      },
+      "noise": {
+        "lower": 58.541533,
+        "mean": 67.489811,
+        "upper": 76.438089,
+        "std": 4.474139
+      }
+    }
+  },
+  "normal_baseline": {
+    "PR": {
+      "temperature": {
+        "mean": 25.010859,
+        "std": 1.193687
+      },
+      "humidity": {
+        "mean": 49.984575,
+        "std": 5.825989
+      },
+      "vibration": {
+        "mean": 0.351538,
+        "std": 0.091128
+      },
+      "acceleration": {
+        "mean": 0.025117,
+        "std": 0.009134
+      },
+      "noise": {
+        "mean": 67.520663,
+        "std": 4.443311
+      },
+      "sample_count": 32060
+    },
+    "SD": {
+      "temperature": {
+        "mean": 24.969863,
+        "std": 1.18315
+      },
+      "humidity": {
+        "mean": 50.198331,
+        "std": 5.788458
+      },
+      "vibration": {
+        "mean": 0.350764,
+        "std": 0.090941
+      },
+      "acceleration": {
+        "mean": 0.024977,
+        "std": 0.009138
+      },
+      "noise": {
+        "mean": 67.489811,
+        "std": 4.474139
+      },
+      "sample_count": 43905
+    }
+  }
+}
