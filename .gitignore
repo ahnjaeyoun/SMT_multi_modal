@@ -15,12 +15,17 @@ __pycache__/
 *$py.class
 .venv/
 venv/
+.venv*/
+.venv_cls/
 ENV/
 .pytest_cache/
+*.pth
 
 .DS_Store
 Thumbs.db
 
-models/1.classification/.venv_cls/
 models/2.detection_sd/agents/
+Server/mongodb_data/
+results_train/
 .agents/
+
